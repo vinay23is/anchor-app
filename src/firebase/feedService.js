@@ -1,4 +1,4 @@
-import { collection, query, where, orderBy, limit, getDocs } from "firebase/firestore";
+import { collection, query, orderBy, limit, getDocs } from "firebase/firestore";
 import { db } from "./config";
 
 export async function getFeed(currentUid) {
