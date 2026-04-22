@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# ⚓ Anchor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**A place for people fighting invisible wars.**
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## The story behind this
 
-### `npm start`
+There's a specific kind of loneliness that doesn't have a name yet.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+It's the one felt by someone who moved countries to build a better life, who has a graduate degree and skills and drive — but still can't catch a break. Who smiles on LinkedIn while quietly panicking about visa deadlines, rent, and what to tell their parents back home. Who is surrounded by people but feels completely unseen.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+That's who Anchor is built for.
 
-### `npm test`
+Not the crisis. The slow grind. The Tuesday at 2pm when you're applying to your 200th job and you just need someone — or something — to remind you that you're not broken. That other people feel this exact thing. That you're going to be okay.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## What it actually does
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You open the app. You type what's going on for you today — no filters, no polish. Just the real thing.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Anchor's AI responds immediately. Not with "I hear you" filler. Not with a list of breathing exercises. Like a friend who's been through something similar and actually gets it.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Then you see a few anonymous check-ins from other people who felt something similar today. Real words from real people. No usernames, no followers, no algorithms deciding who matters.
 
-### `npm run eject`
+If someone's words hit close to home, you can reach out — anonymously. If they accept within 24 hours, a private chat opens. Two people, no names, just honesty.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The AI already responded either way. Nobody's left hanging.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Who it's for
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Immigrant students and grads in the US grinding through unemployment and visa stress
+- Anyone who feels the pressure of being high-potential in a world that isn't cooperating
+- People who want human connection without the performance of social media
+- Anyone who just needs somewhere honest to land
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## How it works
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+Open app → Type what's real → AI responds instantly
+                                      ↓
+              See anonymous posts from people who felt similar
+                                      ↓
+              Send a "I've been there too" connect request
+                                      ↓
+              If accepted → anonymous real-time chat opens
+              If not → AI already had your back
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Your identity here
 
-### Analyzing the Bundle Size
+When you sign in with Google, your email is converted into a random username like `Anchor#7361`. That's it. That's all anyone ever sees. Your name, your email, your identity — none of it exists inside this app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Built with
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **React + Tailwind CSS** — frontend
+- **Firebase Auth** — Google login
+- **Firestore** — real-time database and chat
+- **Gemini AI** — the AI companion
+- **Vercel** — hosting
 
-### Advanced Configuration
+Total monthly cost: **$0**. Built this way on purpose — it should be free forever for the people who need it most.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Running it locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+git clone https://github.com/vinay23is/anchor-app.git
+cd anchor-app
+npm install
+npm start
+```
 
-### `npm run build` fails to minify
+You'll need to set up your own Firebase project and Gemini API key and drop them into `src/firebase/config.js` and `src/utils/gemini.js`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## The person who built this
+
+My name is Vinay. I'm a CS grad who spent nearly a year unemployed after moving to the US. I know what it's like to have all the skills and none of the luck. I built Anchor because I needed it — and I think a lot of other people do too.
+
+This isn't a startup pitch. It's just an app I made from scratch in a day because the problem felt real enough to solve.
+
+---
+
+*If this resonates with you — use it, share it, or just know you're not alone in whatever you're carrying right now.*
